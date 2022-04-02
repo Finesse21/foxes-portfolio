@@ -81,6 +81,7 @@ h3 {
 .button:hover {
   color: var(--button-hover-color);
   background-color: var(--button-color);
+  transition: all 0.3s ease-in-out;
 }
 
 .header-link {
@@ -211,7 +212,7 @@ footer {
   padding: var(--spacing);
   text-align: center;
   background-color: #333;
-  color: white;
+  color: black;
   height: 100px;
 }
 
@@ -226,7 +227,7 @@ footer {
 }
 
 .social-link {
-  display: black;
+  display: block;
   width: 60px;
   height: 60px;
   font-size: 0px;
@@ -234,25 +235,25 @@ footer {
   background-size: 60px;
 }
 
-social.link: hover {
+.social-link:hover {
   transform: scale(1,2);
   transition: transform 0.3s ease-in-out;
 }
 
 .linkedin {
-    background-image: url(images/linkedin.svg);
+    background-image: url('\linkedin.png');
 }
 
 .twitter {
-    background-image: url(images/twitter.svg);
+    background-image: url('\twitter.png');
 }
 
 .github {
-background-image: url(images/github.svg);
+background-image: url('\github.png');
 }
 
 .youtube {
-    background-image: url(images/youtube.svg);
+    background-image: url('\youtube.png');
 }
 
 @media (min-width: 800px) {
